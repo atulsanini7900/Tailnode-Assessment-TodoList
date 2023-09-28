@@ -8,6 +8,7 @@ const TodoList = ({ todos, onEdit, onDelete, onCheckboxChange }) => {
         <TodoItem
           key={individualTodo.ID}
           todo={individualTodo}
+          index={index} // Pass the index here
           onEdit={onEdit}
           onDelete={onDelete}
           onCheckboxChange={onCheckboxChange}
