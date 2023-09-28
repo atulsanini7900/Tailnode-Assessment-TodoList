@@ -1,0 +1,88 @@
+/* Todo.css */
+
+/* Container for the entire Todo list */
+.todo-container {
+    background-color: #070707;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Todo form */
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-and-button {
+    flex-grow: 1;
+    display: flex;
+  }
+  
+  .input-and-button input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .button button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .button button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Todo item */
+  .todo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo span {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  .edit-and-delete {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .edit-and-delete div {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .delete-all {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .delete-all:hover {
+    background-color: #ff3333;
+  }
+  
